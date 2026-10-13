@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+    <title>Hotel Reservation Form</title>
+
+    <style>
+        .bg
+        {
+            background-color: lightgrey;
+            padding: 10px;
+        }
+
+        h2 
+
+        {
+            color: red;
+            text-align: center;
+        }
+
+        table 
+        {
+            background-color: lightblue;
+            border: 1px solid black;
+            margin:auto;
+        }
+
+        td 
+        {
+            padding: 5px;
+        }
+
+        .font
+	{
+            font-weight: bold;
+            text-align: right;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="bg">
+
+        <h2>Continental Hotel Reservation Form</h2>
+
+        <form>
+            <table border="200000">
+
+                <tr>
+                    <td class="font">Name</td>
+                    <td><input type="text" placeholder="Enter your name"></td>
+                </tr>
+
+                <tr>
+                    <td class="font">eMail</td>
+                    <td><input type="text" value="info@continental.pk"></td>
+                </tr>
+
+                <tr>
+                    <td class="font">Mobile No</td>
+                    <td><input type="text" placeholder="Enter your cell number"></td>
+                </tr>
+
+                <tr>
+                    <td class="font">Arrival Time</td>
+                    <td><input type="text" placeholder="Enter your arrival time"></td>
+                </tr>
+
+                <tr>
+                    <td class="font">Departure</td>
+                    <td><input type="date"> <input type="time"></td>
+                </tr>
+
+                <tr>
+                    <td class="font">Room Type</td>
+                    <td>
+                        <input type="radio" name="room"> Single
+                        <input type="radio" name="room"> Double <br>
+                        <input type="radio" name="room"> Presidential Suite
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="font">Preferences</td>\
+                    <td>
+                        <input type="checkbox"> Non-Smoking <br>
+                        <input type="checkbox"> Internet <br>
+                        <input type="checkbox"> Firm Mattress
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="font">Mode of Payment</td>
+                    <td>
+                        <input type="checkbox"> Cash
+                        <input type="checkbox"> Check <br>
+                        <input type="checkbox"> Credit Card
+                        <select>
+                            <option>Select Card</option>
+                            <option>Visa</option>
+                            <option>MasterCard</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="center">
+                        <input type="submit" value="Send Data">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+    </div>
+
+</body>
+</html>
